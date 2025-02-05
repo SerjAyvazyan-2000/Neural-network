@@ -1,0 +1,925 @@
+.hero-section {
+    padding: 193px 0 0;
+}
+
+.hero-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: var(--white);
+
+
+}
+
+.hero-sub-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: center;
+    color: var(--gray);
+    margin-top: 20px;
+
+}
+
+.hero-bnt {
+    margin-top: 40px;
+}
+
+.img-mobile {
+    display: none;
+}
+
+.hero-media {
+    padding: 80px 0 0;
+    margin-top: 80px;
+    background: var(--light-black);
+    box-shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 40px;
+    position: relative;
+
+}
+
+.hero-media-card {
+    position: absolute;
+}
+
+.hero-card--one {
+    right: 32px;
+    top: -60px;
+}
+
+.hero-card--two {
+    left: 32px;
+    bottom: -60px;
+}
+
+.transform-slide-titles {
+    gap: 12px;
+}
+
+.transform-slide {
+    box-shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.12);
+    background: var(--light-black2);
+    border-radius: 24px;
+    gap: 28px;
+}
+
+.padding-top {
+    padding: 40px 53px 0 53px;
+
+}
+
+.opportunities-info-p-left {
+    padding: 0 0 40px 40px;
+
+}
+
+.opportunities-info-p-right {
+    padding: 0 0 40px 0;
+
+}
+
+.padding-bottom {
+    padding: 0 53px 40px 53px;
+
+}
+
+.swiper-pagination {
+    position: initial !important;
+    margin-top: 25px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet {
+    background: var(--dark-gray) !important;
+    width: 6px !important;
+    height: 6px !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--green) !important;
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.opportunities-item {
+    padding: 40px 0 0;
+    background: var(--light-black2);
+    box-shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 24px;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.opportunities-items {
+    gap: 40px;
+}
+
+.opportunities-item-img {
+    margin-top: auto;
+}
+
+.opportunities-item-header {
+    gap: 16px;
+
+}
+
+.opportunities-item-icon {
+    background: var(--light-black3);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.icon-message {
+    font-size: 18px;
+    background: var(--white);
+}
+
+.icon-gallery {
+    font-size: 22px;
+    background: var(--white);
+}
+
+.icon-mic {
+    font-size: 18px;
+    background: var(--white);
+}
+
+.icon-video {
+    font-size: 20px;
+    background: var(--white);
+}
+
+.opportunities-item-title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28.6px;
+    color: var(--white);
+
+}
+
+.opportunities-item-text {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    color: var(--gray);
+
+}
+
+.opportunities-item-clues {
+    flex-wrap: wrap;
+    margin-top: 28px;
+    gap: 8px;
+}
+
+.opportunities-item-info {
+    max-width: 550px;
+}
+
+.opportunities-img-left {
+    max-width: 620px;
+    width: 100%;
+}
+
+
+.opportunities-item-btn {
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 10px 36px;
+}
+
+.opportunities-item-clue {
+    padding: 6px 12px;
+    background: var(--light-black3);
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: center;
+    color: var(--green);
+
+
+}
+
+
+.services-cnt {
+    gap: 20px;
+}
+
+.services-description {
+    padding: 40px;
+    background: var(--light-black2);
+    border-radius: 24px;
+    max-width: 793px;
+    width: 100%;
+}
+
+.services-title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28.6px;
+    color: var(--white);
+}
+
+.services-texts {
+    gap: 20px;
+    max-width: 635px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.services-texts p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    color: var(--gray);
+
+}
+
+.services-networks {
+    margin-top: 48px;
+    gap: 12px;
+    flex-wrap: wrap;
+
+}
+
+.services-network {
+    padding: 14px 16px;
+    border-radius: 8px;
+    background: var(--light-black3);
+    transition: .3s;
+}
+
+.services-network img {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+
+.services-network:hover {
+    transform: scale(1.1);
+}
+
+.services-btn-cnt {
+    margin-top: 40px;
+}
+
+.services-media {
+    padding: 40px 40px 0 40px;
+    max-width: 387px;
+    width: 100%;
+    background: var(--light-black);
+    border-radius: 24px;
+    box-shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.12);
+
+
+}
+
+.reviews-swiper {
+    max-height: 545px;
+    max-width: 793px;
+    width: 100%;
+    position: relative;
+}
+
+.reviews-swiper::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -20px;
+    height: 160px;
+    width: 1000px;
+    background-image: url('../images/blur.webp');
+    z-index: 2;
+}
+
+.reviews-swiper::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 160px;
+    width: 1000px;
+    background-image: url('../images/blur2.webp');
+    z-index: 2;
+}
+
+.reviews-left-items {
+    max-width: 387px;
+    width: 100%;
+    gap: 16px;
+}
+
+.reviews-left-item {
+    background: var(--light-black);
+    border-radius: 20px;
+}
+
+.reviews-left-big-item {
+    padding: 65px 30px;
+
+}
+
+.reviews-left-small-item {
+    padding: 32px 0;
+}
+
+.reviews-left-item-stars {
+    gap: 8px;
+}
+
+.icon-star {
+    font-size: 28px;
+    background: var(--green);
+}
+
+.reviews-left-item-text {
+    margin-top: 12px;
+    gap: 8px;
+}
+
+.reviews-left-item-text p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28.6px;
+    text-align: center;
+    color: var(--white);
+
+
+}
+
+.reviews-left-item-text span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    color: var(--white);
+
+
+}
+
+
+.reviews-item-img {
+    flex: 0 0 60px;
+    height: 60px;
+}
+
+.reviews-box {
+    gap: 20px;
+}
+
+.reviews-item-img img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.reviews-item-header {
+    gap: 12px;
+}
+
+.reviews-author h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    color: var(--white);
+
+}
+
+.reviews-author p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    color: var(--dark-gray);
+
+}
+
+.reviews-item-text {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    color: var(--gray);
+    max-width: 697px;
+
+}
+
+.reviews-item-info {
+    flex: 1 1 auto;
+}
+
+.reviews-item {
+    padding: 24px;
+    background: var(--light-black2);
+    border-radius: 16px;
+}
+
+.where-start-body {
+    padding: 80px 80px 0 80px;
+    background: var(--light-black);
+    box-shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 40px;
+
+}
+
+.where-start-media {
+    margin-top: 43px;
+}
+
+.where-start-text {
+    margin-top: 20px;
+    color: var(--gray);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+
+
+}
+
+.where-start-btn {
+    margin-top: 40px;
+}
+
+
+.faq-column {
+    gap: 20px;
+
+}
+
+.faq-items {
+    max-width: 590px;
+    width: 100%;
+    gap: 16px;
+}
+
+.faq-item {
+    background: var(--light-black2);
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 8px 8px 8px 20px;
+
+}
+
+
+.faq-item-header {
+    align-items: center;
+    gap: 10px;
+}
+
+.faq-item-header p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    color: var(--white);
+
+}
+
+.faq-item-icon {
+    flex: 0 0 48px;
+    height: 48px;
+    position: relative;
+    border-radius: 8px;
+    transition: .3s;
+    background: var(--light-black3);
+
+}
+
+.faq-item-icon::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    background: var(--white);
+    transition: .3s;
+
+
+}
+
+.faq-item-icon::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    background: var(--white);
+    transform: rotate(90deg);
+    transition: .3s;
+
+}
+
+.faq-item:hover .faq-item-icon {
+    background: var(--black);
+
+}
+
+.faq-item.active .faq-item-icon {
+    background: var(--black);
+
+}
+
+.faq-item.active .faq-item-icon::after {
+    transform: rotate(-135deg);
+    transition: .3s;
+}
+
+.faq-item.active .faq-item-icon::before {
+    transform: rotate(135deg);
+    transition: .3s;
+
+}
+
+.faq-item.active .faq-item-sub {
+    max-height: 500px;
+    opacity: .7;
+    visibility: visible;
+    transition: .3s;
+    padding-bottom: 12px;
+
+
+}
+
+.faq-item-sub {
+    transition: .3s;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    color: var(--gray);
+    opacity: 0;
+    visibility: hidden;
+    max-width: 490px;
+    max-height: 0;
+
+}
+
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+    .opportunities-item {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 40px;
+        border-radius: 16px;
+        padding: 20px 0 0;
+
+    }
+    .faq-item-sub{
+        max-width: 100%;
+    }
+    .faq-item.active .faq-item-sub{
+        margin-top: 12px;
+    }
+    .faq-item-icon {
+        flex: 0 0 40px;
+        height: 40px;
+        border-radius: 6px;
+        transition: .3s;
+    }
+    .faq-item-header p{
+        font-size: 16px;
+
+    }
+    .faq-column {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+
+    .faq-items {
+        max-width: 100%;
+    }
+
+    .services-cnt {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .services-media {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .services-description {
+        max-width: 100%;
+    }
+
+    .services-texts {
+        max-width: 100%;
+    }
+
+    .reviews-swiper {
+        max-width: 100%;
+    }
+
+    .reviews-box {
+        flex-direction: column;
+    }
+
+    .reviews-swiper::after {
+        display: none;
+    }
+
+    .reviews-item {
+        min-height: 237px;
+    }
+
+    .reviews-swiper::before {
+        display: none;
+
+    }
+
+    .reviews-left-items {
+        max-width: 100%;
+    }
+
+    .reviews-left-big-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .opportunities-info-p-right {
+        padding: 0 0 0 20px;
+    }
+
+    .opportunities-p-right {
+        padding: 20px 20px 0 0;
+
+    }
+
+    .opportunities-p-left {
+        padding: 20px 0 0 20px;
+
+    }
+
+    .opportunities-item-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .opportunities-img-left {
+        max-width: 100%;
+    }
+
+    .opportunities-item-img img {
+        width: 100%;
+    }
+
+    .opportunities-info-p-left {
+        padding: 0;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-media {
+        border-radius: 16px;
+        padding: 12px 0 0;
+
+    }
+
+    .hero-media-card {
+        max-width: 120px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 170px 0 0;
+    }
+
+    .services-titles {
+        display: none;
+    }
+
+    .reviews-left-item {
+        border-radius: 16px;
+    }
+
+    .where-start-body {
+        padding: 48px 18px 0 18px;
+        border-radius: 16px;
+
+    }
+
+    .where-start-media {
+        margin-top: 43px;
+    }
+
+    .where-start-text {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+
+    .reviews-left-items {
+        gap: 12px;
+    }
+
+    .reviews-left-item-text {
+        margin-top: 8px;
+    }
+
+    .reviews-left-item-text p {
+        font-size: 20px;
+    }
+
+    .reviews-left-item-text span {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+
+    .reviews-author p {
+        font-size: 12px;
+        margin-top: 6px;
+    }
+
+    .reviews-item-img {
+        flex: 0 0 44px;
+        height: 44px;
+    }
+
+    .reviews-item-img img {
+        border-radius: 8px;
+    }
+
+    .reviews-box {
+        gap: 36px;
+    }
+
+    .icon-star {
+        font-size: 20px;
+    }
+
+    .reviews-icon {
+        max-width: 28px;
+    }
+
+    .reviews-author h4 {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+
+    .reviews-item {
+        padding: 20px;
+    }
+
+    .reviews-item-header {
+        gap: 8px;
+    }
+
+    .reviews-left-big-item {
+        padding: 46px 30px;
+    }
+
+    .opportunities-items {
+        gap: 32px;
+    }
+
+    .services-description {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .services-networks {
+        margin-top: 0;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .services-network {
+        padding: 30px 32px;
+    }
+
+    .opportunities-item-text {
+        font-size: 16px;
+        line-height: 20.8px;
+
+    }
+
+    .services-btn-cnt {
+        margin-top: 32px;
+    }
+
+    .services-media {
+        padding: 30px 30px 0 30px;
+        border-radius: 16px;
+
+
+    }
+
+    .opportunities-item-title {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .opportunities-item-clues {
+        gap: 6px;
+        margin-top: 24px;
+    }
+
+    .opportunities-item-clue {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+
+    .hero-title {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+
+    .opportunities-item-btn {
+        margin-top: 32px;
+    }
+    .faq-item {
+        background: var(--light-black2);
+        border-radius: 12px;
+        cursor: pointer;
+        padding: 15px 8px 15px 20px;
+
+    }
+
+    .hero-bnt {
+        margin-top: 32px;
+    }
+
+    .hero-media {
+        padding: 0;
+        background: none;
+
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    .hero-media-mockup img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
+    .hero-card--one {
+        right: 8px;
+        top: -22px;
+    }
+
+    .hero-card--two {
+        left: 8px;
+        bottom: -22px;
+    }
+
+    .mobile-text-wrap {
+        display: block;
+    }
+
+    .padding-top {
+        padding: 32px 30px 0 30px;
+
+    }
+
+    .padding-bottom {
+        padding: 0 30px 32px 30px;
+
+    }
+
+    .transform-slide {
+        border-radius: 16px;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-bnt {
+        width: 100%;
+    }
+
+    .opportunities-item-clues {
+        max-width: 280px;
+    }
+
+    .services-btn-cnt button {
+        width: 100%;
+    }
+}
