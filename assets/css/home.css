@@ -42,6 +42,7 @@
 
 .hero-media-card {
     position: absolute;
+    max-width: 200px;
 }
 
 .hero-card--one {
@@ -122,6 +123,8 @@
 
 .opportunities-item-img {
     margin-top: auto;
+    max-width: 580px;
+    width: 100%;
 }
 
 .opportunities-item-header {
@@ -183,10 +186,6 @@
     max-width: 550px;
 }
 
-.opportunities-img-left {
-    max-width: 620px;
-    width: 100%;
-}
 
 
 .opportunities-item-btn {
@@ -578,22 +577,30 @@
         padding: 20px 0 0;
 
     }
-    .faq-item-sub{
+    .opportunities-item-img {
+        max-width: 100%;
+
+    }
+    .faq-item-sub {
         max-width: 100%;
     }
-    .faq-item.active .faq-item-sub{
+
+    .faq-item.active .faq-item-sub {
         margin-top: 12px;
     }
+
     .faq-item-icon {
         flex: 0 0 40px;
         height: 40px;
         border-radius: 6px;
         transition: .3s;
     }
-    .faq-item-header p{
+
+    .faq-item-header p {
         font-size: 16px;
 
     }
+
     .faq-column {
         flex-direction: column;
         gap: 16px;
@@ -674,9 +681,7 @@
         flex-direction: column-reverse;
     }
 
-    .opportunities-img-left {
-        max-width: 100%;
-    }
+
 
     .opportunities-item-img img {
         width: 100%;
@@ -704,6 +709,10 @@
 @media (max-width: 576px) {
     .hero-section {
         padding: 170px 0 0;
+    }
+
+    .hero-media-card {
+        max-width: 80px;
     }
 
     .services-titles {
@@ -849,6 +858,7 @@
     .opportunities-item-btn {
         margin-top: 32px;
     }
+
     .faq-item {
         background: var(--light-black2);
         border-radius: 12px;
@@ -861,10 +871,9 @@
         margin-top: 32px;
     }
 
-    .hero-media {
-        padding: 0;
-        background: none;
 
+    .hero-media {
+        padding: 12px 12px 0 12px;
     }
 
     .img-desktop {
@@ -888,6 +897,7 @@
     .hero-card--two {
         left: 8px;
         bottom: -22px;
+        max-width: 68px;
     }
 
     .mobile-text-wrap {
