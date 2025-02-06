@@ -71,7 +71,7 @@ function toggleActiveState(item) {
         }
     });
 
-    item.classList.toggle('active'); // Открываем или закрываем текущий
+    item.classList.toggle('active');
 }
 
 document.querySelectorAll('.faq-item').forEach(item => {
@@ -80,65 +80,17 @@ document.querySelectorAll('.faq-item').forEach(item => {
     const icon = item.querySelector('.faq-item-icon');
     if (icon) {
         icon.addEventListener('click', (event) => {
-            event.stopPropagation(); // Предотвращаем срабатывание родительского клика
+            event.stopPropagation();
             toggleActiveState(item);
         });
     }
 });
 
 
-function setupGifToggle(selector) {
-    document.querySelectorAll(selector).forEach(block => {
-        const gif = block.getAttribute('data-gif');
-        const defaultImage = block.getAttribute('data-img');
-
-        function toggleGif() {
-            if (block.classList.contains('active')) {
-                block.classList.remove('active');
-                block.style.backgroundImage = `url('${defaultImage}')`;
-            } else {
-                block.classList.add('active');
-                block.style.backgroundImage = `url('${gif}')`;
-            }
-        }
-
-        block.addEventListener('click', toggleGif);
-    });
-}
-
-setupGifToggle('.hero-video-block');
-setupGifToggle('.video-block');
 
 
 
 
-
-
-document.addEventListener("DOMContentLoaded", () => {
-    const tabs = document.querySelectorAll(".possibilities-tab");
-    const contents = document.querySelectorAll(".possibilities-cnt");
-
-    // Функция переключения активных элементов
-    function activateTab(tab) {
-        const targetId = tab.getAttribute("data-id");
-
-        // Удаляем активный класс у всех вкладок и контента
-        tabs.forEach(t => t.classList.remove("active"));
-        contents.forEach(c => c.classList.remove("active"));
-
-        // Добавляем активный класс для выбранной вкладки и контента
-        tab.classList.add("active");
-        document.querySelector(`.possibilities-cnt[data-id="${targetId}"]`).classList.add("active");
-    }
-
-    // Назначаем обработчики событий для всех вкладок
-    tabs.forEach(tab => {
-        tab.addEventListener("click", () => activateTab(tab));
-    });
-
-    // Изначально активировать первый элемент
-    activateTab(tabs[0]);
-});
 
 
 

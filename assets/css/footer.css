@@ -52,7 +52,9 @@
 .footer-btn {
     padding: 12px 36px;
 }
-
+.footer-logo{
+    max-width: 159px;
+}
 @media (max-width: 1400px) {
 }
 

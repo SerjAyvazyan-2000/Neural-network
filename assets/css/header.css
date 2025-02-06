@@ -30,19 +30,6 @@
 
 }
 
-.header-body::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 100px;
-    padding: 1px;
-    background: linear-gradient(105.61deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 100%);
-    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    mask-composite: exclude;
-    z-index: -1;
-
-}
 
 
 .header-body.active {
@@ -378,6 +365,7 @@
 
     .header-logo {
         margin-left: 0;
+        max-width: 137px;
     }
 
 
