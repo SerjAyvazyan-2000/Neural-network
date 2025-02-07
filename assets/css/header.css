@@ -188,6 +188,7 @@
         height: 100%;
         z-index: -1;
         transition: .3s;
+        opacity: .9;
 
     }
 
