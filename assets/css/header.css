@@ -178,7 +178,6 @@
 @media (max-width: 992px) {
 
     .menu-bg {
-        background: #444444;
         backdrop-filter: blur(6px);
         position: fixed;
         display: block;
