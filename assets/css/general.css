@@ -121,6 +121,9 @@
     color: var(--white);
 
 }
+.text-green{
+    color: var(--green);
+}
 
 .block-sub-title {
     font-size: 16px;

@@ -41,7 +41,7 @@
 }
 
 .footer-menu-list {
-    gap: 18px;
+    gap: 80px;
 }
 
 .audio-file--one {
@@ -65,7 +65,9 @@
 
 @media (max-width: 992px) {
 
-
+    .footer-body{
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -94,6 +96,15 @@
     .footer-body{
         flex-direction: column;
         gap: 48px;
+        align-items: stretch;
+    }
+    .footer-menu-list{
+        flex-direction: column;
+        align-items: stretch;
+
+    }
+    .footer-btn{
+        max-width: max-content;
     }
     .footer-clue{
         margin-top: 48px;
